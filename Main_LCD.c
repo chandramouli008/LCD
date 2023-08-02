@@ -1,6 +1,4 @@
 #include "lcd.h"
-#include <stddef.h>
-#include <string.h>
 
 int main()
 {
