@@ -15,6 +15,9 @@ int main()
     
 	Write_CMD_LCD(0x87);
 	Write_float_LCD(12.345,3);
+	Write_CMD_LCD(0xC7);
+	Write_float_LCD(12.345,3);
+
 	while(1);
 }
 
